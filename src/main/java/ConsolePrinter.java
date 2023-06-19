@@ -1,8 +1,7 @@
 public class ConsolePrinter {
+    Integer intValue = 1000;
     public Integer printValue() {
-        Integer intValue = 1000;
-        String formattedStrValue = String.format("---<%d>---", intValue);
-        System.out.println(formattedStrValue);
+        System.out.printf("---<%d>---%n", intValue);
         return intValue;
     }
 }
